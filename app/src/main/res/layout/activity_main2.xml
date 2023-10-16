@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="TODO"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/cuyo_bg"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="-56dp" />
+
+
+    <RelativeLayout
+        android:id="@+id/textView"
+        android:layout_width="331dp"
+        android:layout_height="180dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="76dp"
+        android:background="@drawable/border"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.514"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView2">
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="209dp"
+            android:layout_height="63dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="19dp"
+            android:layout_marginEnd="65dp"
+            android:background="@drawable/round_btn"
+            android:text="@string/start1"
+            android:textSize="25sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="296dp"
+            android:layout_height="72dp"
+            android:layout_below="@+id/button2"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="13dp"
+            android:layout_marginTop="5dp"
+            android:text="to search, click START SEARCHING, enter a cuyonon word in the search box"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toTopOf="parent"
+            app:layout_constraintEnd_toStartOf="parent"
+            app:layout_constraintStart_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/textView1"
+        android:layout_width="331dp"
+        android:layout_height="180dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/border"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.571"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView">
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="218dp"
+            android:layout_height="61dp"
+            android:layout_above="@+id/textView7"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="29dp"
+            android:layout_marginEnd="53dp"
+            android:layout_marginBottom="22dp"
+            android:background="@drawable/round_btn"
+            android:text="@string/alphabet"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="261dp"
+            android:layout_height="57dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="40dp"
+            android:layout_marginBottom="11dp"
+            android:text="Learn the Alphabet Letters of Cuyonon dialect"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            tools:ignore="MissingConstraints" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/textView2"
+        android:layout_width="331dp"
+        android:layout_height="180dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/border"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+        app:layout_constraintEnd_toEndOf="@+id/imageView2"
+        app:layout_constraintHorizontal_bias="0.514"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView1"
+        app:layout_constraintVertical_bias="0.105">
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="214dp"
+            android:layout_height="72dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="58dp"
+            android:layout_marginBottom="95dp"
+            android:background="@drawable/round_btn"
+            android:text="@string/phrases"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="239dp"
+            android:layout_height="64dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="48dp"
+            android:layout_marginBottom="17dp"
+            android:text="A collection of useful phrases in Cuyonon"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/textView3"
+        android:layout_width="331dp"
+        android:layout_height="185dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/border"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.205">
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="214dp"
+            android:layout_height="72dp"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="57dp"
+            android:layout_marginBottom="93dp"
+            android:background="@drawable/round_btn"
+            android:text="about cuyo"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="212dp"
+            android:layout_height="59dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="53dp"
+            android:layout_marginTop="106dp"
+            android:layout_marginEnd="66dp"
+            android:layout_marginBottom="20dp"
+            android:text="History of Cuyo, Cuyonon Dialect"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            tools:ignore="MissingConstraints" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="60dp"
+        android:layout_height="66dp"
+        android:onClick="showPopup"
+        android:src="@drawable/infoo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.967"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.014" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="71dp"
+        android:layout_height="70dp"
+        android:background="@drawable/rowback"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+        app:layout_constraintEnd_toEndOf="@+id/imageView2"
+        app:layout_constraintHorizontal_bias="0.028"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView2"
+        app:layout_constraintVertical_bias="0.017" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

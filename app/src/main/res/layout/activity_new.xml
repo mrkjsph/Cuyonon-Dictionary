@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NewActivity"
+    android:background="#4E9FAC">
+
+    <RelativeLayout
+        android:layout_width="400dp"
+        android:layout_height="876dp"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/round_btn"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/TextView"
+            android:layout_width="283dp"
+            android:layout_height="78dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="39dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="105dp"
+            android:layout_marginBottom="748dp"
+            android:text="Word"
+            android:textColor="#000"
+            android:textSize="50sp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/img_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="240dp"
+            android:layout_marginTop="104dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginBottom="672dp"
+            android:background="@drawable/round_btn"
+            android:src="@drawable/volume_24" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="39dp"
+            android:layout_marginTop="128dp"
+            android:layout_marginEnd="260dp"
+            android:layout_marginBottom="721dp"
+            android:text="Cuyonon"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/TextView1"
+            android:layout_width="308dp"
+            android:layout_height="70dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="39dp"
+            android:layout_marginTop="230dp"
+            android:layout_marginEnd="65dp"
+            android:layout_marginBottom="576dp"
+            android:text="Word"
+            android:textColor="#000"
+            android:textSize="50sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="161dp"
+            android:layout_height="40dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="39dp"
+            android:layout_marginTop="299dp"
+            android:layout_marginEnd="225dp"
+            android:layout_marginBottom="537dp"
+            android:text="English"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:id="@+id/TextView2"
+            android:layout_width="336dp"
+            android:layout_height="220dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="39dp"
+            android:layout_marginTop="357dp"
+            android:layout_marginEnd="51dp"
+            android:layout_marginBottom="299dp"
+            android:text="meaning in english"
+            android:textColor="#000"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/TextView3"
+            android:layout_width="330dp"
+            android:layout_height="72dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="39dp"
+            android:layout_marginTop="577dp"
+            android:layout_marginEnd="51dp"
+            android:layout_marginBottom="227dp"
+            android:text="Word"
+            android:textColor="#000"
+            android:textSize="50sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="93dp"
+            android:layout_height="40dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="39dp"
+            android:layout_marginTop="648dp"
+            android:layout_marginEnd="295dp"
+            android:layout_marginBottom="188dp"
+            android:text="Tagalog"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+</LinearLayout>
